@@ -1,0 +1,12 @@
+package com.tw.LinkHashMap;
+
+public class LinkedHashMap {
+
+	public static void main(String[] args) {
+	
+		 ExampleLinkedHashMap<Integer, String> li = new ExampleLinkedHashMap<>();
+
+
+	}
+
+}

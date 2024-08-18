@@ -1,0 +1,32 @@
+package com.tw.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.tw.entity.ToushionManajment;
+
+
+@RestController
+@RequestMapping("/api/Toushion")
+public class ToushionController {
+	
+	@Autowired
+	ToushionRapo tutiRapo;
+	
+	@PostMapping("/saveToushion")
+	public String save(@RequestBody ToushionManajment param) {
+		
+		tutiRapo.save(param);
+		return "save successFully";
+		
+	}
+	
+	
+	
+	
+
+}

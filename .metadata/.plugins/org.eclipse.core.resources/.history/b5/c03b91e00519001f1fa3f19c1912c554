@@ -1,0 +1,41 @@
+package ItCom;
+
+public class BrinchIt implements ItComPany1 {
+
+	@Override
+	public String details() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String fullStackDeveloper() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String frendEnd() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String payMent() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String classTime() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String reailTimeProject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

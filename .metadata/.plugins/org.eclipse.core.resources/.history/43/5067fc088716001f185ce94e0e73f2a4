@@ -1,0 +1,18 @@
+package com.tw;
+
+public class AccessMoifier {
+
+	public static void main(String[] args) {
+		
+		
+		String [] name = {"junaid","zeeshan","junaid"};
+		System.out.println(name[1]);
+		
+		
+		
+		
+		
+		
+	}
+
+}

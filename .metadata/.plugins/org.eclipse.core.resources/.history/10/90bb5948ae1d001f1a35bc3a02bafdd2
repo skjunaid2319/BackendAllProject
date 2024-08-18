@@ -1,0 +1,18 @@
+package polymorfisim;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Car cr = new Car();
+		ElectricCar el = new ElectricCar();
+		Cng  cg = new Cng();
+		
+		cr.reful();
+		el.charging();
+		cg.cng();
+		System.out.println();
+
+	}
+
+}

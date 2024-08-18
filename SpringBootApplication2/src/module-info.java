@@ -1,0 +1,2 @@
+module SpringBootApplication2 {
+}

@@ -1,0 +1,39 @@
+package com.tw.JavaDataBase;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Testing {
+
+    public static void main(String[] args) {
+        String url = "jdbc:mysql://localhost:3306/jdbctrst";
+        String user = "root";
+        String password = "root";
+        
+        // Loading MySQL JDBC Driver
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            return;
+        }
+
+        // Using try-with-resources to ensure resources are closed
+        try (Connection con = DriverManager.getConnection(url, user, password);
+             Statement st = con.createStatement();
+             ResultSet rs = st.executeQuery("SELECT * FROM users")) {
+
+            while (rs.next()) {
+                System.out.println("user id: " + rs.getString("id") +
+                                   " user name: " + rs.getString("name") +
+                                   " user email: " + rs.getString("email"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+}

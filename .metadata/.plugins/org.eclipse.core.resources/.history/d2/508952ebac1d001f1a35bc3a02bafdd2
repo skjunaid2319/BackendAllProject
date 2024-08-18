@@ -1,0 +1,5 @@
+package polymorfisim;
+
+public class ElectricCar extends Car {
+
+}

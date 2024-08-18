@@ -1,0 +1,25 @@
+package com.tw.datatype;
+
+public class Arithematicoperator2 {
+
+	public static void main(String[] args) {
+		
+		// simple operators
+		
+			// Arithmetic operators 
+		
+		int a=10;
+		int b=20;
+		
+		int pluse=a+b;
+		System.out.println(""+pluse);
+		
+		int minus=a-b;
+		System.out.println(""+minus);
+		
+		int into=a*b;
+		System.out.println(""+into);
+
+	}
+
+}

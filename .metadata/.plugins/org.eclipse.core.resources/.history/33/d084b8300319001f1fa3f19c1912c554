@@ -1,0 +1,5 @@
+package ItCom;
+
+public interface ItComPany1 {
+
+}

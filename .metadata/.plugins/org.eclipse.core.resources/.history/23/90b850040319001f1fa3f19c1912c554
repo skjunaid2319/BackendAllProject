@@ -1,0 +1,41 @@
+package ItCom;
+
+public class NewBranch implements ItComPany1 {
+
+	@Override
+	public String details() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String fullstackdeveloper() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String frindenddeveloper() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String payment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String classtime() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String railtimeproject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

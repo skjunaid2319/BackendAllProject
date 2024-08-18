@@ -1,0 +1,14 @@
+package ItCom;
+
+public interface ItComPany1 {
+	
+	
+	public abstract String details();
+	String fullStackDeveloper();
+	String frendEnd();
+	String payMent();
+	String classTime();
+	String reailTimeProject();
+	
+
+}

@@ -1,0 +1,22 @@
+package com.tw.datatype;
+
+public class Junaid {
+  
+	int i = 10;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a=10;
+		int b=30;
+		int d=40;
+		
+		Junaid j = new Junaid();
+		System.out.print(a + j.i);
+	System.out.print(a);
+	System.out.print(b);
+	System.out.print(d);
+	
+
+	}
+
+}

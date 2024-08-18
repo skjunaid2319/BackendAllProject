@@ -1,0 +1,15 @@
+
+public class ExceptionExample {
+
+	public static void main(String[] args) {
+
+		int [] numbers = {10,20,30,40,50,};
+		
+		 int invalidElement = numbers[10];
+		 
+		 System.out.println("The Elements is invalidElement");
+		
+	
+	}
+
+}

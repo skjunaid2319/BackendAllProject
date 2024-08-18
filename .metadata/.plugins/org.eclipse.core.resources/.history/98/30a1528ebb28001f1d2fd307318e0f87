@@ -1,0 +1,57 @@
+package com.tw.queue;
+
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class QueueTest {
+
+	public static void main(String[] args) {
+
+		Queue<Integer> q1 = new PriorityQueue();
+
+		q1.add(40);
+		q1.add(30);
+		q1.add(20);
+		q1.add(10);
+		System.out.println("Fist in fast out " + q1);
+
+		q1.remove(40);
+		System.out.println(q1);
+
+		q1.clear();
+		System.out.println(q1);
+
+		Queue<Integer> q2 = new PriorityQueue<>();
+
+		q2.add(40);
+		q2.add(30);
+		q2.add(20);
+		q2.add(10);
+		System.out.println(q2);
+
+		q2.remove();
+		System.out.println("fist in fast out" + q2);
+
+		q2.clear();
+		System.out.println(q2);
+
+		Queue<String> q3 = new PriorityQueue<>();
+
+		q3.add("J");
+		q3.add("Z");
+		q3.add("A");
+		q3.add("T");
+		q3.add("N");
+		
+		System.out.println(q3);
+		
+		System.out.println(q3.isEmpty());
+		
+		q3.remove("N");
+		System.out.println(q3);
+				
+
+	}
+
+}

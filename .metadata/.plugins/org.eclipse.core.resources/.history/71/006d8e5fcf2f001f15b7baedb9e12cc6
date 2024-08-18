@@ -1,0 +1,20 @@
+package com.tw.JavaDataBase;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Testing {
+
+ public static void main(String[] args)  {
+	 
+	 try {
+		Connection con = DriverManager.getConnection("com.Mysql.cg.jdbc.Driver");
+	} catch (SQLException e) {
+		e.printStackTrace();
+	}
+				
+	 
+
+	}
+}

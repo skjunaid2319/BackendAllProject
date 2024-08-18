@@ -1,0 +1,20 @@
+package com.tw.datatype;
+
+public class Assignmentoperator {
+
+	public static void main(String[] args) {
+		
+		
+//		Assignment operators are used to assign values to variables.
+
+//		In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:
+        
+		
+		int a=5;
+		int b=3;
+		
+		System.out.println(""+a);
+		
+	}
+
+}

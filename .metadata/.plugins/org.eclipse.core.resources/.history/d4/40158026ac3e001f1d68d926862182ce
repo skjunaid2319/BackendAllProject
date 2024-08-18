@@ -1,0 +1,9 @@
+package com.tw.My.fast.spring.project.api;
+
+public class Controler {
+	
+	public void hello() {
+		System.out.println("hello");
+	}
+
+}

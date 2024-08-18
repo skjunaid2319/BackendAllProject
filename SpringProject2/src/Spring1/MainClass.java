@@ -1,0 +1,19 @@
+package Spring1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = new AnnotationConfigApplicationContext(Configer.class);
+		
+		Imployess imp = (Imployess) context.getBean("std");
+		
+		imp.display();
+		
+
+	}
+
+}

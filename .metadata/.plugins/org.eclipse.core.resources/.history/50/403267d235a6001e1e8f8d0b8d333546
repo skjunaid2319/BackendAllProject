@@ -1,0 +1,25 @@
+package com.tw.flowcontrol;
+
+public class LoopsTest {
+
+	public static void main(String[] args) {
+
+		String str="junaid";
+		
+		for(int i=1; i<str.length();i++);{
+			
+			char ch=str.charAt(1);
+			
+			System.out.println(ch);
+		}
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+

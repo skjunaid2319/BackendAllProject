@@ -1,0 +1,2 @@
+module javapractis {
+}

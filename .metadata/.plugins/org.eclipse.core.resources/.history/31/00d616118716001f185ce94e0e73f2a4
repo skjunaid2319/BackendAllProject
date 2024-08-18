@@ -1,0 +1,11 @@
+package com.tw;
+
+public class AccessMoifier {
+
+	public static void main(String[] args) {
+		
+
+				
+	}
+
+}

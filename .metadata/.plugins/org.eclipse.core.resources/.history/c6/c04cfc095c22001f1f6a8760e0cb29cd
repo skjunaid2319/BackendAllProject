@@ -1,0 +1,40 @@
+package com.tw.javacollection;
+
+import java.util.ArrayList;
+
+public class JavaCollection {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> Name= new ArrayList<String>();
+		Name .add("Mdjunaid");
+		Name .add("junaid");
+		Name .add("zeeshan");
+		Name .add ("sohel");
+		System.out.println(Name);
+		
+		
+		// Add method java collection
+		Name.add("Faiyaz");
+		System.out.println(Name);
+		
+		// Remove method
+		Name.remove(0);
+		System.out.println(Name);
+		// set method value replace
+		Name.set(0, "Faiyaz");
+		System.out.println(Name);
+		 // print 
+		Name.add(3,"junaid");
+		System.out.println(Name.get(0));
+		
+		Name.clear();
+		System.out.println();
+		
+		
+	
+	
+	
+	}
+
+}

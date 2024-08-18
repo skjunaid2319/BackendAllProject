@@ -1,0 +1,18 @@
+package SpringBoot1;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+//		System.out.println(System.getProperty("java.class.path"));
+
+		Imployess imp = (Imployess) context.getBean("std");
+		imp.display();
+
+	}
+
+}

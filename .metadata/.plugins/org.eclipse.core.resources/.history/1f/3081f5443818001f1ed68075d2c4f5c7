@@ -1,0 +1,23 @@
+package com.tw.abstaction;
+
+public class MyCom extends CarCom {
+
+	@Override
+	public void swift(double amount, int accountNumber) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void breza(double amount, int accountNumber) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void indovar(double amount, int accountNumber) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

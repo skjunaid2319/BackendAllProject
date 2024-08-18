@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+
+	public static void main(String[] args) {
+		
+		Map<String,Integer> m = new HashMap<>();
+		
+		m.put("Junaid", 24);
+		m.put("Zeeshan", 27);
+		m.put("Amer",  26);
+		m.put("Taha",  23);
+		System.out.println(m);
+		
+		m.containsKey("Zeeshan");
+		System.out.println(m);
+		
+
+
+	}
+
+}

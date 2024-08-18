@@ -1,0 +1,23 @@
+package com.tw.My.fast.spring.project.api;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+@RequestMapping
+public class Controler {
+//	
+//	@SpringBootApplication
+//	public class FirstSpringApplication{
+//		
+		@GetMapping("printt")
+		public String returnSomeThing() {
+			return "This is My Fast Spring Project";
+			
+		}
+		
+		
+	}
+//}

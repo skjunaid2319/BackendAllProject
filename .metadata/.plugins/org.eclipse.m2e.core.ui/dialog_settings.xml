@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\laptop\Downloads\Backend-to-frontend-call"/>
+			<item value="C:\Users\laptop\Downloads\Backend-to-frondend-call"/>
+			<item value="C:\Users\laptop\Downloads\SpringBootApplication"/>
+			<item value="C:\Users\laptop\Downloads\Fullspringboot"/>
+			<item value="C:\Users\laptop\Downloads\second-project"/>
+			<item value="C:\Users\laptop\Downloads\mdjunaid"/>
+			<item value="C:\Users\laptop\Downloads\spring"/>
+			<item value="C:\Users\laptop\Downloads\junaidnew"/>
+			<item value="C:\Users\laptop\Downloads\junaid\junaid"/>
+			<item value="C:\Users\laptop\Downloads\spring-5.2.9.RELEASE-dist\spring-framework-5.2.9.RELEASE\docs"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

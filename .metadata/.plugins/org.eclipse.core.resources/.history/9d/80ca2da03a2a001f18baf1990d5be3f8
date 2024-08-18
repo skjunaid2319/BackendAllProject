@@ -1,0 +1,20 @@
+package com.tw.LinkHashMap;
+
+import java.util.LinkedHashMap;
+
+public class ExampleLinkedHashMap {
+
+	public static void main(String[] args) {
+	
+		 LinkedHashMap<Integer, String> li = new LinkedHashMap<>();
+		 
+		 li.put(1, "One");
+		 li.put(2, "Two");
+		 li.put(3, "Three");
+		 
+		 System.out.println(li);
+
+
+	}
+
+}
